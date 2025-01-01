@@ -42,6 +42,10 @@ const cozeWebSDK = new CozeWebSDK.WebChatClient({
             lang: 'zh-CN',
             // zIndex: 1000,
         },
+        header: {
+            isNeedClose: false,
+            // isShow:false,
+        },
         /**
          * 控制聊天框的UI及基本功能。
          * @param chatBot.title - 聊天框的标题。
@@ -50,6 +54,7 @@ const cozeWebSDK = new CozeWebSDK.WebChatClient({
          * @param chatBot.el - 设置聊天框放置位置的容器（Element）。
          */
         chatBot: {
+            isShow:false,
             title: '云小智',
             uploadable: true,
             width: 390
@@ -79,11 +84,10 @@ const cozeWebSDK = new CozeWebSDK.WebChatClient({
                     link: 'https://www.test2.com'
                 }
             }
-        }
+        },
+
     },
-    header: {
-        isNeedClose: false
-    },
+
 });
 
 
