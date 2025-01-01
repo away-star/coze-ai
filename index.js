@@ -37,7 +37,7 @@ const cozeWebSDK = new CozeWebSDK.WebChatClient({
          * @param base.zIndex - 聊天框的z-index。
          */
         base: {
-            icon: './智能助手.png',
+            icon: 'https://github.com/away-star/coze-ai/blob/main/%E6%99%BA%E8%83%BD%E5%8A%A9%E6%89%8B.png?raw=true',
             layout: 'mobile',
             lang: 'zh-CN',
             zIndex: 1000,
