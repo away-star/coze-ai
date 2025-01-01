@@ -81,6 +81,9 @@ const cozeWebSDK = new CozeWebSDK.WebChatClient({
             }
         }
     },
+    header: {
+        isNeedClose: false
+    },
 });
 
 
