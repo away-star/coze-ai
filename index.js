@@ -25,7 +25,7 @@ const cozeWebSDK = new CozeWebSDK.WebChatClient({
      */
     userInfo: {
         id: 'user',
-        url: 'https://lf-coze-web-cdn.coze.cn/obj/coze-web-cn/obric/coze/favicon.1970.png',
+        url: 'https://github.com/away-star/coze-ai/blob/main/%E4%BA%BA.png?raw=true',
         nickname: '访客',
     },
     ui: {
