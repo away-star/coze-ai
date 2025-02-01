@@ -56,8 +56,8 @@ const cozeWebSDK = new CozeWebSDK.WebChatClient({
         chatBot: {
             isShow:false,
             title: '云小智',
-            uploadable: true,
-            width: 390
+            uploadable: false,
+            width: 390,
         },
         /**
          * 控制是否显示页面右下角的浮动按钮。
